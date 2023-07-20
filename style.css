@@ -7,6 +7,7 @@
 body{
     width:100vw;
     height: 100vh;
+    font-family: 'Overpass', sans-serif;
 }
 section{
     width:100%;
@@ -28,12 +29,12 @@ section{
 .box1{
     width: 90%;
     height: 20%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     align-items: center;
 }
 .boxx{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 50%;
     width: 10%;
     display: flex;
@@ -41,20 +42,58 @@ section{
     justify-content: center;
     border-radius: 50%;
     
-    background:  hsl(217, 12%, 63%);
+    background:  hsl(216, 4%, 26%);
 }
 .box2{
     width: 90%;
     height: 40%;
-    border: 1px solid rgb(15, 16, 15);
+    /* border: 1px solid rgb(15, 16, 15); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box2 h3{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+.box2 p{
+    /* color:hsl(217, 12%, 63%); */
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    font-size: 15px;
 }
 .box3{
     width: 90%;
     height: 20%;
-    border: 1px solid rgb(85, 128, 0);
+    /* border: 1px solid rgb(85, 128, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box3 button{
+    height: 80%;
+    width: 15%;
+    border-radius: 50%;
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    background: rgb(82, 82, 82);
+    border: none;
 }
 .box4{
     width: 90%;
     height: 20%;
-    border: 1px solid rgb(128, 0, 87);
+    /* border: 1px solid rgb(128, 0, 87); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box4 button{
+    width: 90%;
+    height: 70%;
+    border-radius: 30px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background: hsl(25, 97%, 53%);
+    border: none;
+    cursor: pointer;
 }
