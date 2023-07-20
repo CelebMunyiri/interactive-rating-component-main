@@ -25,6 +25,7 @@ section{
     display: flex;
     align-items: center;
     flex-direction: column;
+    opacity: 0;
 }
 .box1{
     width: 90%;
@@ -96,4 +97,49 @@ section{
     background: hsl(25, 97%, 53%);
     border: none;
     cursor: pointer;
+}
+.thankyouBox{
+    width: 30%;
+    border-radius: 20px;
+    height: 65%;
+    background: hsl(213, 19%, 18%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 1;
+}
+.rate{
+    width: 60%;
+    height: 10%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(61, 61, 61);
+    color: hsl(25, 97%, 53%);
+    font-weight: 700;
+    border-radius: 30px;
+}
+.thankyouBox h1{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.final{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    color:hsl(216, 12%, 54%) ;
+    font-size: 15px;
+}
+@media screen and (max-width:500px){
+    .box{
+        width: 80%;
+        height: 70%;
+    }
 }
