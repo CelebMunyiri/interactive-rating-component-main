@@ -9,8 +9,10 @@ let btn3=document.querySelector('.btn3')
 let btn4=document.querySelector('.btn4')
 let btn5=document.querySelector('.btn5')
 let box =document.querySelector('.box')
+
+
 submit.addEventListener('click',function(){
-thankyouBox.classList.toggle('hidden')
+thankyouBox.classList.remove('hidden')
 // console.log('cliked');
 box.classList.add('hidden')
 })
@@ -35,8 +37,9 @@ btn5.addEventListener('click',function(){
     rated.textContent='5' 
 })
 
-document.addEventListener('keydown',(e)=>{
-    if(e==='ENTER'){
+document.addEventListener('keydown',function(e){
+    if(e.key==='ENTER'){
+        console.log('wait')
         box.classList.remove('hidden')
         console.log('here iam')
     }
