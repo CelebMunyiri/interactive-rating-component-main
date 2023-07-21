@@ -108,7 +108,7 @@ section{
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    opacity: 0;
+    
 }
 .rate{
     width: 60%;
@@ -138,6 +138,10 @@ section{
     color:hsl(216, 12%, 54%) ;
     font-size: 15px;
 }
+.hidden{
+    display: hidden;
+    opacity: 0;
+    }
 @media screen and (max-width:500px){
     section{
         width:100%;
@@ -150,6 +154,6 @@ section{
     .thankyouBox{
         width: 80%;
         height: 70%;
-opacity: 1;
+
     }
 }
