@@ -37,10 +37,10 @@ btn5.addEventListener('click',function(){
     rated.textContent='5' 
 })
 
-document.addEventListener('keydown',function(e){
-    if(e.key==='ENTER'){
-        console.log('wait')
-        box.classList.remove('hidden')
-        console.log('here iam')
-    }
+document.addEventListener('keydown',function(event){
+// console.log(event.key)
+if(event.key==='Shift'){
+    box.classList.remove('hidden')
+}
+
 })
